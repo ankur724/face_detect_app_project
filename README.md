@@ -16,7 +16,8 @@ geniusvoice->This folder contains all files related the Django and ml models lik
 mytemplate-> This folder contains all html files
 static-> Contains all images used in the project
 
-Our first [Screenshot (2672)](https://github.com/ankur724/face_detect_app_project/assets/96392974/fa09f3f2-2de9-4ee5-a637-b5bf57ed1e1e)
+Our first page
+<img src="https://github.com/ankur724/face_detect_app_project/assets/96392974/fa09f3f2-2de9-4ee5-a637-b5bf57ed1e1e">
 
 
 
