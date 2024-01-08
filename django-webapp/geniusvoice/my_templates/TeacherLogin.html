@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Attendance System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+    
+        center {
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .btn-primary {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            /* text-decoration: none;  */
+          
+        }
+        /* a:link { 
+
+}  */
+
+        .btn-primary:hover {
+            background-color: #0b7dda;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Welcome to the Student Attendance System</h1>
+    <h2>Hello {{user.username}} </h2>
+
+
+    <a href="{% url 'user_page' %}"><button>Student Records</button></a>
+
+    <!-- <a href="{% url 'date' %}"><button>View attendence </button></a> -->
+
+    <a href="{% url 'home' %}"><button> Mark atttendence</button></a>
+    <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+    <!-- <a href="studentData.html"><button>Student Records</button></a>
+    <a href="view_attendance.html"><button>View Attendance</button></a>
+    <a href="mark_attendance.html"><button>Mark Attendance</button></a> -->
+</center>
+
+</body>
+</html>

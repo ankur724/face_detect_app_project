@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Collect face and Student login
+        </title>
+
+        <!-- Add your CSS styles here -->
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               
+                background-color: #f2f2f2;
+                margin: 0;
+                padding: 0;
+            }
+
+            center {
+                margin-top: 50px;
+            }
+
+            h1 {
+                color: #1a1a1a;
+            }
+
+            h2 {
+                color: #006600;
+            }
+
+            button {
+                background-color: #009933;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+            }
+
+            button:hover {
+                background-color: #007a5e;
+            }
+
+            hr {
+                border: 1px solid #cccccc;
+                margin-bottom: 25px;
+            }
+
+            a {
+                background-color: #cc0000;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+
+            a:hover {
+                background-color: #990000;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>Hello {{ user.username }}</h1>
+            <h2>Collect image sample</h2>
+       
+            <button onclick="location.href='{% url 'script' %}'">COLLECT IMAGE</button>
+            <!-- <hr> -->
+            {{output_data}}
+            <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+        </center>
+    </body>
+</html>

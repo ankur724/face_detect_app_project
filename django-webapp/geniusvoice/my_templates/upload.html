@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+
+    <title>Image Uploader</title>
+  </head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .bg-secondary {
+        background-color: #343a40;
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    .py-5 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+
+    form {
+        margin-bottom: 2rem;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    h3 {
+        margin-top: 2rem;
+    }
+
+    hr {
+        margin-top: 3rem;
+    }
+</style>
+
+  <body>
+    <a href="{% url 'back_teacher' %}"><button type="button">BACK</button></a>
+  <center> <h1>Mark Attendance by Uploading Group Photo </h1></center> 
+   <div class="container">
+    <div class="py-5 text-center bg-secondary text-white">
+     <h1 class="mb-3">Upload Image</h1>
+     <form action="" method="post" enctype="multipart/form-data">
+      {% csrf_token %}{{form}}
+      <input type="submit" class="btn btn-danger" value="Upload">
+     </form>
+    </div>
+    
+    {% if obj %}
+    <h3>Successfully uploaded: {{img_obj.caption}}</h3>
+  
+    {% endif %}
+<br><br><br><br>
+
+<button onclick="location.href='{% url 'script2' %}'">Click To Execute Script Recognize Photo</button> <hr>
+
+
+
+
+   </div>
+
+  
+    
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Attendance</title>
+</head>
+<body>
+    <h1>View Attendance</h1>
+
+    <table border="2">
+        <tr>
+            <th>Date</th>
+            <th>No. of Times Attendance Taken</th>
+        </tr>
+        <tr>
+            <td>2023-10-15</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>2023-10-14</td>
+            <td>2</td>
+        </tr>
+        <!-- Add more rows for different dates and attendance counts -->
+    </table>
+<br>
+    <button onclick="showStudentAttendance()">Show Student Names and Attendance Count</button>
+
+    <div id="studentAttendanceInfo" style="display: none;">
+        <h2>Student Attendance Information</h2>
+        <table border="2">
+            <tr>
+                <th>Student Name</th>
+                <th>Attendance Count</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>2</td>
+            </tr>
+            <!-- Add more rows for different students and their attendance counts -->
+        </table>
+    </div>
+
+    <script>
+        function showStudentAttendance() {
+            const studentAttendanceInfo = document.getElementById("studentAttendanceInfo");
+            studentAttendanceInfo.style.display = "block";
+        }
+    </script>
+</body>
+</html>
