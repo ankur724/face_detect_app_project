@@ -1,5 +1,5 @@
 
-<h1>We are aiming to detect and recognise the faces of persons in groups</h1>
+<h1>Face recognition attendance system</h1>
 <h3> Developers working on it are </h3>
 <ol>
 <li> Harsh Vardhan dixit -> Worked as ML developer</li>
