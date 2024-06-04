@@ -17,7 +17,8 @@ mytemplate-> This folder contains all html files
 static-> Contains all images used in the project
 
 Our Project Demo video Face recognition attendance system
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://drive.google.com/file/d/19f6hrzg26cnAJvoBOY_mdnwe-D3sWJHX/view?usp=sharing)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Click here to watch the video: [Face recognition attendance system](https://drive.google.com/file/d/19f6hrzg26cnAJvoBOY_mdnwe-D3sWJHX/view?usp=sharing)
+
 
 
 
