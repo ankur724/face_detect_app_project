@@ -18,7 +18,7 @@ There is also a possibility of human error in taking attendance manually like fa
 These are the problems when we have to take attendance manually. This problem results in a decrease in the efficiency and productivity of a class.
 
 Our Project Demo video Face recognition attendance system
-Click here to watch the video: [Face recognition attendance system](https://drive.google.com/file/d/19f6hrzg26cnAJvoBOY_mdnwe-D3sWJHX/view?usp=sharing)
+Click here to watch the video: [Face recognition attendance system]([https://drive.google.com/file/d/19f6hrzg26cnAJvoBOY_mdnwe-D3sWJHX/view?usp=sharing](https://drive.google.com/file/d/1itL1_5TrXy6JrpwdHfTvpYIpgTwc6m5M/view?usp=drive_link))
 
 
 
